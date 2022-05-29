@@ -1,0 +1,169 @@
+/* 
+    Created on : 28 de mai de 2022, 15:33:32
+    Author     : oroaldo
+*/
+
+/*FORMATACAO TABELA*/
+#tabprodutos {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tabprodutos td, #tabprodutos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabprodutos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0a81d1;
+    color: white;
+}
+/* FIM FORMATACAO TABELA*/
+
+/* FORMATACAO DIV EM 2 COLUNAS */
+div.col {
+    flex: 1;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 30px;
+}
+
+/*exibir em linha*/
+.inline {
+    display: inline;
+}
+
+/* LINK E BOTÃO */
+a {
+    text-decoration: none;
+}
+a.button {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: .25rem;
+}
+a.button-perigo {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #ed474a;
+    border-color: #F03437;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: .25rem;
+    margin-left: 2px;
+}
+a.button-neutro {
+    cursor: pointer;
+    outline: 0;
+    color: #333;
+    background-color: #c4c4c4;
+    border-color: #adacac;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: .25rem;
+    margin-left: 2px;
+}
+
+a.button-sucesso {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #04AA6D;
+    border-color: #048a59;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: .25rem;
+    margin-left: 2px;
+}
+
+/* input - formulario */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-transform: uppercase;
+}
+
+input.filter-inline{
+    width: 150px;
+}
+input.filter-row{
+    width: 305px;
+}
+
+select {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-transform: uppercase;
+}
+
+select.filter {
+  width: 150px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  text-transform: uppercase;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
